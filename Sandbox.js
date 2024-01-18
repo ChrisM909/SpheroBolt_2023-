@@ -3,6 +3,7 @@
 //Program: Sphero Bolt Testing
 //Bolt ID: B0D0
 
+/*
 async function startProgram() {
 	await speak("Hello World", true);
 	setMainLed({ r: 0, g: 0, b: 255});
@@ -10,3 +11,25 @@ async function startProgram() {
 	await delay (2);
 	setSpeed(0);
 }
+*/
+
+// Square w/ different colors for each line
+async function startProgram() {
+	setMainLed({ r: 0, g: 0, b: 255})
+	setSpeed(100);
+	await delay(10);
+	setSpeed(0);
+}
+
+
+
+
+
+// Square w/ different Colors & Sounds for each line
+
+
+
+
+
+
+// Figure 8
