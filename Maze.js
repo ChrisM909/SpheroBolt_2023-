@@ -4,3 +4,9 @@
 // Program: Maze
 // Bolt ID: B0D0
 
+async function startProgram() {
+	// start maze 
+	scrollMatrixText('Start',{ r:255,g:0,b:255}, 30, true)
+	await speak ("Start Maze", true);
+	setMainLed ({ r:255,g:0,b:255});
+}
